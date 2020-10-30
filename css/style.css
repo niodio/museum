@@ -17,12 +17,20 @@ a:hover {
     color: #227115;
 }
 
+/* LOGO */
+
+#logo h1 {
+    float: left;
+}
+
 #logo a {
     width: 248px;
     height: 21px;
     display: block;
     background: url(../img/logo.png);
 }
+
+/* barra de navegação */
 
 header {
     padding: 15px 0;
@@ -48,4 +56,68 @@ nav ul li a:link {
 
 nav ul li a:hover {
     border-bottom: 1px solid #535858;
+}
+
+/* conteudo */
+
+#conteudo {
+    width: 710px;
+    float: left;
+    background: green;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    background: #ede7dd;
+}
+
+section#visita {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+section#galeria a {
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px;
+    margin: 10px 0 0 20px;
+}
+
+h4 {
+    color: #75411a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/* form */
+
+input {
+    height: 20px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ada484;
+}
+
+input.botao {
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
 }
